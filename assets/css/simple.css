@@ -92,6 +92,10 @@ body {
     margin-left: 15px;
 }
 
+.content-photo .carousel .carousel-control {
+    line-height: 25px;
+}
+
 .muted a {
     color: #999999;
 }

@@ -88,9 +88,9 @@ class Example
         <p>Proin nisl elit, vehicula sed pellentesque quis, interdum vel elit. Fusce pulvinar libero non magna egestas consectetur. Mauris euismod, ligula sed mollis vehicula, tellus lectus imperdiet velit, id blandit ligula sem in lorem. Vestibulum lacinia lorem nec lorem fringilla non mattis augue tempus. Fusce non libero quis arcu aliquam commodo. Nulla vel magna eu erat imperdiet gravida. Duis commodo feugiat convallis. Morbi adipiscing sodales est, vel varius nibh iaculis a. Phasellus posuere lectus ut erat volutpat tincidunt. Sed nisi tortor, posuere sodales ornare eget, euismod in magna. Aliquam ac lectus a neque sollicitudin ornare ac posuere ante. Ut magna metus, molestie sit amet luctus sed, mattis vitae elit. Nullam sit amet diam vitae leo congue interdum quis ac est.</p>
         <p>Sed odio sem, congue ut luctus tempor, sodales ut sapien. Aenean tempus ligula at diam auctor in ultrices urna placerat. Etiam ultrices posuere mauris vel sollicitudin. Pellentesque congue consectetur risus ut congue. Nunc eu magna diam. Nam vestibulum justo at nisl mattis facilisis. Vivamus a odio justo, sed consectetur lacus. Integer nunc tellus, ultricies et vehicula et, feugiat non enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque in quam id turpis tincidunt volutpat. Nunc lobortis, nunc ac malesuada gravida, ipsum tortor laoreet mauris, ac ullamcorper est eros non quam.</p>
         <ul class="content-details muted">
-          <li><i class="icon-user"></i> Simple Author</li>
-          <li><i class="icon-calendar"></i> January 1, 1970</li>
-          <li class="pull-right hidden-phone">
+          <li title="Posted by"><i class="icon-user"></i> Simple Author</li>
+          <li title="Posted on"><i class="icon-calendar"></i> January 1, 1970</li>
+          <li title="Tags" class="pull-right hidden-phone">
             <i class="icon-tags"></i>
             <a href="#">latin</a>,
             <a href="#">placeholder</a>,
@@ -112,9 +112,49 @@ class Example
           </div>
         </div>
         <ul class="content-details muted">
-          <li><i class="icon-user"></i> Simple Author</li>
-          <li><i class="icon-calendar"></i> January 1, 1970</li>
-          <li class="pull-right hidden-phone">
+          <li title="Found on"><i class="icon-globe"></i> <a href="#" title="A Simple Source Title">Source</a></li>
+          <li title="Posted by"><i class="icon-user"></i> Simple Author</li>
+          <li title="Posted on"><i class="icon-calendar"></i> January 1, 1970</li>
+          <li title="Tags" class="pull-right hidden-phone">
+            <i class="icon-tags"></i>
+            <a href="#">kitty</a>
+          </li>
+        </ul>
+      </div>
+      <!-- photo set content -->
+      <div class="row-fluid content content-photo">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="item">
+              <a href="#"><img src="http://placekitten.com/750/500"/></a>
+              <div class="carousel-caption">
+                <h4>Fusce pulvinar</h4>
+                <p>Libero non magna egestas consectetur.</p>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#"><img src="http://placekitten.com/750/500"/></a>
+              <div class="carousel-caption">
+                <h4>Integer tortor velit</h4>
+                <p>Faucibus posuere hendrerit eget, dapibus a nisl.</p>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#"><img src="http://placekitten.com/750/500"/></a>
+              <div class="carousel-caption">
+                <h4>Vestibulum ante ipsum primis</h4>
+                <p>In faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="content-details muted">
+          <li title="Found on"><i class="icon-globe"></i>
+            <a href="#" title="A Simple Source Title">Source</a></li>
+          <li title="Posted by"><i class="icon-user"></i> Simple Author</li>
+          <li title="Posted on"><i class="icon-calendar"></i> January 1, 1970
+          </li>
+          <li title="Tags" class="pull-right hidden-phone">
             <i class="icon-tags"></i>
             <a href="#">kitty</a>
           </li>
@@ -144,9 +184,9 @@ class Example
           </tbody>
         </table>
         <ul class="content-details muted">
-          <li><i class="icon-user"></i> Simple Author</li>
-          <li><i class="icon-calendar"></i> January 1, 1970</li>
-          <li class="pull-right hidden-phone">
+          <li title="Posted by"><i class="icon-user"></i> Simple Author</li>
+          <li title="Posted on"><i class="icon-calendar"></i> January 1, 1970</li>
+          <li title="Tags" class="pull-right hidden-phone">
             <i class="icon-tags"></i>
             <a href="#">kitty</a>
           </li>
@@ -187,6 +227,7 @@ class Example
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/simple.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=sons-of-obsidian"></script>
   </body>
 </html>
