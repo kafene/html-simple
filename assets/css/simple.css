@@ -105,6 +105,27 @@ body {
     color: #2d2d2d;
 }
 
+.nav-posts > li > a {
+    display: inline !important;
+}
+
+.nav-posts > li > a:focus,
+.nav-posts > li > a:hover {
+    background: none;
+}
+
+.nav-posts > li > span {
+    cursor: default;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    width: 150px;
+}
+
+.nav-posts > li > span > i {
+    margin-left: 10px;
+}
+
 .page-header a {
     color: #333333;
 }
